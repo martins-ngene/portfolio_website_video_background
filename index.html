@@ -23,25 +23,25 @@
 		<div class="center">
 				<div class="text">
 					
-					<h2>Hi I'm Martins</h2>
+						<div class="text-position">
+							<h2>Hi I'm Martins <img src="icons/me.jpg" alt="my_picture" class="me" style="width: 13rem;"></h2>
 
-					<h3>A Front End Engineer and Freelancer.</h3>
-					<p>
-						Let me handle your projects and give you value for your money, you will find satisfaction in my design.
-					</p>
+							<h3>A Front End Engineer and Freelancer.</h3>
+							<p>
+								Let me handle your projects and give you value for your money, you will find satisfaction in my design.
+							</p>
+						</div>
 
 					<a href="#">Explore</a>
 				</div>
 
-				<div class="me">
-					<img src="icons/me.jpg" alt="my_picture" style="width: 13rem;">
-				</div>
+				
 		</div>
 
 		<ul class="social">
 			<li><a href="#"><img src="icons/linked-in.png" alt="social_media_contact"></a></li>
 
-			<li><a href="#"><img src="icons/twitter.png" alt="social_media_contact"></a></li>
+			<li><a href="#"><img src="icons/twitter.png" alt="social_media_contact" class="twitter"></a></li>
 
 			<li><a href="#"><img src="icons/github.png" alt="social_media_contact"></a></li>
 
@@ -66,6 +66,20 @@
 			<li><a href="#">Contact Me</a></li>
 		</ul>
 	</div>
+
+	<script type="text/javascript">
+		
+		const menuToggle = document.querySelector('.toggle')
+		const showCase = document.querySelector('.showcase')
+
+			menuToggle.addEventListener('click', () => {
+
+					menuToggle.classList.toggle('active')
+					showCase.classList.toggle('active')
+
+			})
+
+	</script>
 
 </body>
 </html>
