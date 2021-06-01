@@ -86,6 +86,8 @@
 	cursor: pointer;
 }
 
+
+
 .toggle{
 
 	position: relative;
@@ -273,8 +275,167 @@
 	}
 }
 
+#contact_me{
+
+	margin-top: 3rem;
+}
+
+.jumbo-style{
+
+	background: #e4e4e4;
+	padding: 2rem;
+	border-radius: .9rem;
+}
+.jumbo-style a{
+
+	text-decoration: none;
+}
+
+.contact-form{
+    background: #e4e4e4;
+    border-radius: .9rem;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #0072ff;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.btnContactSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+#header nav{
+
+	background: #383838;
+	color: white;
+
+}
+
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text-adjust{
+
+	margin-left: 3rem;
+
+}
+
+.logo-1{
+
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.logo-1:hover{
+
+	letter-spacing: 5px;
+}
+
+.logo-1 h2{
+
+	margin-right: 3rem;
+
+}
 
 
+#footer{
+
+	background: #a9a9a9;
+	padding: 2rem;
+}
+
+
+.social-1 img{
+
+	width: 2rem;
+	margin-right: 2rem;
+	transition: 0.5s;
+}
+
+.social-1{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+
+.footer-links{
+
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+}
+.footer-links ul{
+
+	list-style: none;
+}
+
+.footer-links li a{
+
+	text-decoration: none;
+	color: #000;
+	transition: 0.5s;
+
+}
+
+.footer-links li a:hover{
+
+	letter-spacing: 3px;
+}
+
+.twitter-1{
+
+	border-radius: .5rem;
+	width: 1.6rem;
+}
+
+
+.social-1 li img:hover{
+
+	transform: scale(0.8) translateY(-.7rem);
+
+}
 
 
 
