@@ -292,9 +292,10 @@
 	border-radius: .9rem;
 }
 .jumbo-style a{
-
+	color: #fff;
 	text-decoration: none;
 }
+
 
 .contact-form{
     background: #e4e4e4;
@@ -349,7 +350,7 @@
 }
 #header nav{
 
-	background: #383838;
+	background: #2a9d8f;
 	color: white;
 
 }
@@ -472,6 +473,7 @@ display: flex;
 .footer-nav{
 
 	display: flex;
+	flex-wrap: wrap;
 }
 .footer-nav a{
 	margin-left: 1rem;
@@ -488,4 +490,16 @@ display: flex;
 #brand-name, #my-brand{
 	font-size: 2rem;
 	color: #f1faee;
+}
+
+.mail-me a{
+
+	text-decoration: none;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.mail-me a:hover{
+	letter-spacing: 2px;
+	color: #7209b7;
 }
