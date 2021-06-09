@@ -273,6 +273,11 @@
 
 		margin-top: 100px;
 	}
+
+	#main-section{
+
+		font-size: 1rem;
+	}
 }
 
 #contact_me{
@@ -402,9 +407,9 @@ nav{
 
 .footer-links{
 
-	display: flex;
-	align-items: baseline;
-	justify-content: space-between;
+display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 .footer-links ul{
@@ -438,7 +443,49 @@ nav{
 
 }
 
+/*About Me Page Styling. The Carousel*/
+#carousel-section{
 
+	margin-top: 3rem;
+}
+/*Finished Carousel*/
 
+#main-about{
 
+	background: #1d3557;
+	color: #f1faee;
+}
 
+/*Styling Info-section*/
+
+.info-section{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	background: #3a86ff;
+	padding: 2rem;
+	border-radius: 1rem;
+}
+
+/*Finished Info-Section*/
+
+/*Footer About Me*/
+.footer-nav{
+
+	display: flex;
+}
+.footer-nav a{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+#nav-color{
+	background: #2a9d8f;
+	color: #f1faee;
+	height: 5em;
+
+}
+
+#brand-name, #my-brand{
+	font-size: 2rem;
+	color: #f1faee;
+}
