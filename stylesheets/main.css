@@ -189,6 +189,9 @@
 	bottom: 20px;
 	z-index: 10;
 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 
 }
 
@@ -203,6 +206,7 @@
 	display: inline-block;
 	margin-right: 1rem;
 	transform: scale(0.8);
+	filter: invert(1);
 	transition: 0.5s;
 }
 
@@ -261,6 +265,46 @@
 		display: none;
 
 	}
+
+	.text-position{
+
+		margin-bottom: 70px;
+	}
+
+	.social{
+
+		top: 20rem;
+		left: 1rem;
+		transform: scale(0.5);
+	}
+}
+
+@media(max-width: 475px){
+
+	
+	.text-position{
+
+		margin-top: 100px;
+	}
+
+	#main-section{
+
+		font-size: 1rem;
+	}
+
+	.text-position{
+
+		margin-bottom: 4rem;
+	}
+
+	.social{
+
+		top:35rem;
+		left: 1rem;
+		transform: scale(0.5);
+	}
+
+
 }
 
 @media(max-width: 436px){
@@ -278,6 +322,20 @@
 
 		font-size: 1rem;
 	}
+
+	.text-position{
+
+		margin-bottom: 8rem;
+	}
+
+	.social{
+
+		top:25rem;
+		left: 1rem;
+		transform: scale(0.5);
+	}
+
+
 }
 
 #contact_me{
@@ -405,13 +463,22 @@ nav{
 	display: flex;
 	align-items: center;
 }
+#footer{
+
+	color: #000;
+	background: #fff;
+}
+#footer .mail a{
+
+	color: #000;
+}
 
 .footer-links{
 
-display: flex;
+	display: flex;
+	flex-flow: wrap column;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
 }
 .footer-links ul{
 
@@ -616,3 +683,18 @@ body{
 }
 
 /*My Portfolio End*/
+
+/*Card */
+
+.card-container{
+
+	background: #3a86ff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-radius: .9rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+
+}
+/*Finished Card*/
