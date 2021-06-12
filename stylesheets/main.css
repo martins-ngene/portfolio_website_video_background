@@ -463,6 +463,11 @@ nav{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
+}
+.social-1 ul li a{
+
+	margin: 0.3rem;
 }
 #footer{
 
