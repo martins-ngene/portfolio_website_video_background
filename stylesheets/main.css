@@ -461,6 +461,7 @@ nav{
 .social-1{
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
 }
 #footer{
